@@ -28,7 +28,7 @@ const ShippingInfo = () => {
                 placeholder="Last name"
               />
               <input
-                className="px-6 appearance-none  py-2 border-[1px] rounded-3xl outline-none"
+                className="px-6   py-2 border-[1px] rounded-3xl outline-none"
                 type="number"
                 name="phone_number"
                 placeholder="Phone Number"
