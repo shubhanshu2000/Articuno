@@ -9,10 +9,10 @@ const Auth = () => {
     try {
       const authed = await signInWithPopup(auth, googleProvider);
       toast.success(`Welcome back ${authed.user.displayName}`);
-      // console.log(authed.user.displayName);
+      
     } catch (error) {
       toast.error("Invalid E-mail or Password");
-      console.log(error);
+   
     }
   };
   return (
