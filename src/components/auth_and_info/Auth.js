@@ -25,7 +25,7 @@ const Auth = () => {
           Log In
         </button>
         <button
-          className="px-6  py-2 border-[1px] hover:text-white rounded-3xl hover:bg-[#50d2ab] ml-4 border-[#f1f1f1]"
+          className="px-6  py-2 border-2 hover:text-white rounded-3xl hover:bg-[#50d2ab] ml-4 border-[#f1f1f1]"
           onClick={handleGoogleLogin}
         >
           Sign Up

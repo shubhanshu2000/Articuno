@@ -5,7 +5,7 @@ import Payment from "./Payment";
 const PaymentAnddelievery = () => {
   return (
     <>
-      <div className="w-1/3">
+      <div className="">
         <Payment />
         <Delievery />
       </div>
