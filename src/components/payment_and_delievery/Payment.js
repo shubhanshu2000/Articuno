@@ -25,7 +25,7 @@ const Payment = () => {
     loadScript("https://checkout.razorpay.com/v1/checkout.js");
   });
   async function razorPay() {
-    const data = await fetch("http://localhost:3001/razorpay", {
+    const data = await fetch("https://articunobackend.herokuapp.com/razorpay", {
       method: "POST",
     }).then((t) => t.json());
 
@@ -35,7 +35,7 @@ const Payment = () => {
       amount: data.amount,
       name: "Pay Now",
       description: "Wallet Transaction",
-      image: "http://localhost:3001/",
+      image: "https://articunobackend.herokuapp.com/",
       order_id: data.id,
       // handler: function (response) {
       //   alert("PAYMENT ID ::" + response.razorpay_payment_id);
