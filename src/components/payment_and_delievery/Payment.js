@@ -25,7 +25,7 @@ const Payment = () => {
     loadScript("https://checkout.razorpay.com/v1/checkout.js");
   });
   async function razorPay() {
-    const data = await fetch("https://articunobackend.herokuapp.com/razorpay", {
+    const data = await fetch("https://payment1.onrender.com/razorpay", {
       method: "POST",
     }).then((t) => t.json());
 
